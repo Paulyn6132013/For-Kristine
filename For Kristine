@@ -6,10 +6,10 @@ var NFTs = []
 //and store it in the variable above.
 function mintNFT (Name, Eyecolor, Height, Weight) {
     const NFT = {
-        "Name": "Name",
-        "Eyecolor": "Eyecolor",
-        "Height":"Height",
-        "Weight": "Weight"
+        "Name": Name,
+        "Eyecolor": Eyecolor,
+        "Height":Height,
+        "Weight": Weight
     }
     NFTs.push(NFT)
     console.log("Minted:" + Name);
